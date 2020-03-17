@@ -18,7 +18,12 @@ body {
 #logo {
   margin-top: 1rem;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 700;
+}
+
+#logo-link{
+  text-decoration: none;
+  color: white;
 }
 
 .landing-head {
@@ -64,6 +69,11 @@ nav a:hover, nav a:focus {
   text-decoration: none;
   color: #2c5dec;
   transition: 0.5s ease;
+}
+
+.active-nav {
+  color: #2c5dec;
+  text-decoration: none;
 }
 
 /* __________________BUTTON ELEMENTS:__________________ */
