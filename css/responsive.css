@@ -34,6 +34,10 @@
   .head-logo {
     font-size: 5rem;
   }
+
+  .proj-finalimg {
+    margin: 0rem 3rem;
+  }
 }
 
 @media (max-width: 970px) {
@@ -51,6 +55,7 @@
     margin-top: 1rem;
     font-size: 1rem;
     font-weight: 700;
+    color: black;
   }
 
   .project-name {
@@ -58,8 +63,8 @@
     left: 10%;
     font-size: 4rem;
     font-weight: 600;
-    /* -webkit-text-stroke: 2px white; */
-    -webkit-text-stroke: 2px black;
+    -webkit-text-stroke: 2px white;
+    /* -webkit-text-stroke: 2px black; */
     color: rgba(255, 255, 255, 0.0);
   }
 
@@ -80,6 +85,10 @@
     margin: 4rem 12rem 0rem 4rem;
     max-width: 100%;
   }
+
+  .proj-finalimg {
+    margin: 0rem 2rem;
+  }
 }
 
 /* __________iPHONE 8 PLUS & iPHONE X (LANDSCAPE) SCREEN SIZE:__________ */
@@ -94,20 +103,28 @@
     display: none;
   }
 
-  #logo {
+  #logo-about {
     margin-top: 1rem;
     font-size: 1rem;
     font-weight: 700;
+    color: white;
+  }
+
+  #logo-home {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
   }
 
   header {
-    /* background: #0A0A0A; */
-    background: #f8f8f8;
+    /* background: #0A0A0A;
+    background: #f8f8f8; */
     position: sticky;
     top: 0px;
     display: flex;
     justify-content: space-between;
-    border-bottom: 0.05rem solid;
+    /* border-bottom: 0.05rem solid; */
     z-index: 1000
   }
 
@@ -116,10 +133,8 @@
   }
 
   nav a {
-    /* color: white; */
-    color: black;
     font-weight: 600;
-    margin: 1rem 0.5rem 0rem 0.5rem;
+    margin: 1rem 0.5rem;
   }
 
   .section {
@@ -132,8 +147,8 @@
     font-size: 3rem;
     font-weight: 600;
     -webkit-text-stroke: 0px white;
-    /* color: white; */
-    color: black;
+    color: white;
+    /* color: black; */
   }
 
   .project-type {
@@ -159,16 +174,24 @@
   }
 
   .proj-heading {
-    margin-top: 8rem;
+    margin-top: 6rem;
+    margin-bottom: 8rem;
     padding: 0rem;
   }
 
   .proj-title {
-    font-size: 4rem;
+    font-size: 5.5rem;
+    margin: 0rem;
   }
 
-  .proj-subtitle {
-    font-size: 1rem;
+  .proj-detail {
+    color: grey;
+    margin: 0rem;
+  }
+
+  .proj-finalimg {
+    flex-wrap: wrap;
+    margin: 0rem 5rem;
   }
 }
 
@@ -184,32 +207,15 @@
     display: none;
   }
 
-  #logo {
-    margin-top: 1rem;
-    font-size: 1rem;
-    font-weight: 700;
-  }
-
   header {
-    /* background: #0A0A0A; */
-    background: #f8f8f8;
+    /* background: #0A0A0A;
+    background: #f8f8f8; */
     position: sticky;
     top: 0px;
     display: flex;
     justify-content: space-between;
-    border-bottom: 0.05rem solid;
+    /* border-bottom: 0.05rem solid; */
     z-index: 1000
-  }
-
-  nav {
-    flex-wrap: nowrap;
-  }
-
-  nav a {
-    /* color: white; */
-    color: black;
-    font-weight: 600;
-    margin: 1rem 0.5rem 0rem 0.5rem;
   }
 
   .section {
@@ -223,7 +229,7 @@
     font-weight: 600;
     -webkit-text-stroke: 0px white;
     /* color: white; */
-    color: black;
+    color: white;
   }
 
   .project-type {
@@ -245,16 +251,19 @@
   /* __________________PROJECT PAGES:__________________ */
 
   .proj-heading {
-    margin-top: 2rem;
+    margin-top: 12rem;
+    margin-bottom: 14rem;
+    padding: 4rem 1.4rem 2rem 1.4rem;
   }
 
   .proj-title {
     font-size: 4rem;
-    line-height: 4rem;
+    line-height: 4.6rem;
   }
 
-  .proj-subtitle {
-    font-size: 1rem;
+  .proj-finalimg {
+    flex-wrap: wrap;
+    margin: 0rem 2rem;
   }
 }
 
@@ -266,15 +275,9 @@
     padding: 1rem 0rem;
   }
 
-  #logo {
-    margin-top: 1rem;
-    font-size: 1rem;
-    font-weight: 700;
-  }
-
   header {
-    background: #0A0A0A;
-    background: #f8f8f8;
+    /* background: #0A0A0A;
+    background: #f8f8f8; */
     position: sticky;
     top: 0px;
     display: flex;
@@ -283,16 +286,14 @@
     z-index: 1000
   }
 
-  nav {
+  /* nav {
     flex-wrap: nowrap;
   }
 
   nav a {
-    /* color: white; */
-    color: black;
     font-weight: 600;
-    margin: 1rem 0.5rem 0rem 0.5rem;
-  }
+    margin: 1rem 0.5rem;
+  } */
 
   .section {
     margin: 0rem 2rem 0rem 4rem;
@@ -305,8 +306,8 @@
     font-weight: 600;
     /* -webkit-text-stroke: 0px white; */
     /* color: white; */
-    -webkit-text-stroke: 0px black;
-    color: black;
+    /* -webkit-text-stroke: 0px black; */
+    color: white;
   }
 
   .project-type {
@@ -328,20 +329,8 @@
 
   /* __________________PROJECT PAGES: __________________ */
 
-  .proj-heading {
-    margin-top: 8rem;
-  }
-
-  .proj-title {
-    font-size: 4rem;
-    line-height: 4rem;
-  }
-
-  .proj-subtitle {
-    font-size: 1rem;
-  }
-
   .proj-finalimg {
     flex-wrap: wrap;
+    margin: 0rem 1rem;
   }
 }

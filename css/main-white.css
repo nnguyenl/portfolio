@@ -36,25 +36,6 @@ body {
   color: black;
 }
 
-.landing-head {
-  max-width: 100%;
-  margin: 0rem 9rem 9rem 9rem;
-  padding: 0rem 2rem;
-  padding-top: 10rem;
-  justify-content: center
-}
-
-.head-logo {
-  font-size: 6rem;
-  margin: 3rem 0rem 0rem 0rem;
-}
-
-.sub-logo {
-  color: grey;
-  font-size: 1.5rem;
-  margin: 0rem 0rem 0rem 0.5rem;
-}
-
 header {
   background: #f8f8f8;
   position: sticky;
@@ -121,6 +102,31 @@ p {
 
 /* __________________LADNING PAGE: PROJECT DISPLAY__________________ */
 
+.landing-head {
+  max-width: 100%;
+  margin: 0rem 9rem 9rem 9rem;
+  padding: 0rem 2rem;
+  padding-top: 10rem;
+  justify-content: center
+}
+
+.head-logo {
+  font-size: 6rem;
+  margin: 3rem 0rem 0rem 0rem;
+  -webkit-text-stroke: 2.4px black;
+  color: rgba(0, 0, 0, 0.0);
+}
+
+/* .head-logo:hover {
+  color: black;
+} */
+
+.sub-logo {
+  color: grey;
+  font-size: 1.5rem;
+  margin: 0rem 0rem 0rem 0.5rem;
+}
+
 .section {
     margin: 0rem 2rem 0rem 2rem;
 }
@@ -152,8 +158,9 @@ p {
   left: 15%;
   font-size: 4rem;
   font-weight: 800;
-  -webkit-text-stroke: 2.4px black;
+  -webkit-text-stroke: 2.4px #41698D;
   color: rgba(0, 0, 0, 0.0);
+  /* color: #41698D; */
 }
 
 .project-type {
@@ -210,13 +217,13 @@ p {
   font-size: 1.15rem;
   font-weight: 500;
   font-style: italic;
-  margin: 0rem auto 0.5rem auto;
+  margin: 0rem auto 0.25rem auto;
   padding: 0rem 2rem;
 }
 
 .proj-detail {
   color: grey;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 .proj-finalimg {
@@ -226,12 +233,12 @@ p {
   margin: 0rem 8rem;
 }
 
-.proj-img {
-  max-width: 100%;
-}
-
 .proj-imgbox {
   margin: 0.5rem 1rem;
+}
+
+.proj-img {
+  max-width: 100%;
 }
 
 /* __________________STYLING FOR FOOTER:__________________ */

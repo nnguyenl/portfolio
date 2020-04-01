@@ -2,15 +2,24 @@ body {
   font-family: 'Proxima Nova', 'Avenir Next', Arial, Helvetica, sans-serif;
   background-color: #0A0A0A;
   color: white;
-  margin: 1rem;
+  margin: 0rem;
 }
 
-.element {
+/* .element {
   padding: 1rem 2rem;
   margin-bottom: 2rem;
   border-width: 0.05rem;
   border-style: solid;
-  border-color: white;
+  border-color: #f8f8f8;
+} */
+
+.element-guide {
+  padding: 1rem 2rem;
+  border-width: 0.05rem;
+  border-style: solid;
+  border-color: #41698D;
+  max-width: 1060px;
+  margin: 2rem auto;
 }
 
 /* __________________STYLING FOR NAVIGATION:__________________ */
@@ -19,34 +28,34 @@ body {
   margin-top: 1rem;
   font-size: 20px;
   font-weight: 700;
+  margin-left: 0.5rem;
+  color: #0A0A0A;
 }
 
-#logo-link{
-  text-decoration: none;
+#logo-home {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-left: 0.5rem;
+  color: #0A0A0A;
+}
+
+#logo-about {
+  margin-top: 1rem;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 0.5rem;
   color: white;
-}
-
-.landing-head {
-  max-width: 100%;
-  margin: 0rem 9rem 9rem 9rem;
-  padding: 0rem 2rem;
-  padding-top: 10rem;
-  justify-content: center
-}
-
-.head-logo {
-  font-size: 6rem;
-  margin: 3rem 0rem 0rem 0rem;
 }
 
 header {
   background: #0A0A0A;
   position: sticky;
   top: 0px;
-  padding-top: 1rem;
+  padding: 1rem 1rem 0rem 1rem;
   display: flex;
   justify-content: space-between;
-  border-bottom: 0.05rem solid;
+  /* border-bottom: 0.05rem solid; */
   z-index: 1000;
 }
 
@@ -67,46 +76,24 @@ nav a {
 nav a:hover, nav a:focus {
   bottom: 1rem;
   text-decoration: none;
-  color: #2c5dec;
+  color: #41698D;
   transition: 0.5s ease;
 }
 
 .active-nav {
-  color: #2c5dec;
+  color: #41698D;
   text-decoration: none;
 }
-
-/* __________________BUTTON ELEMENTS:__________________ */
-
-/* .button {
-  background-color: black;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  margin: 15px 0px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.button:hover, .button:focus {
-  background-color: rgb(200,0,0);
-} */
 
 /* __________________STYLING FOR LINKS__________________ */
 
 a {
-  color: blue;
+  color: white;
+  text-decoration: none;
 }
 
-#text-link:hover {
-  color: red;
-  transition: 0.5s ease;
-}
-
-#text-link:focus {
-  color: darkblue;
+a:hover {
+  color: #41698D;
 }
 
 /* __________________TEXT ELEMENTS:__________________ */
@@ -115,14 +102,42 @@ h1 {
   font-size: 1rem;
 }
 
+h3 {
+  padding: 0rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
 p {
   margin-top: 0;
 }
 
 /* __________________LADNING PAGE: PROJECT DISPLAY__________________ */
 
+.landing-head {
+  max-width: 100%;
+  margin: 0rem 9rem 9rem 9rem;
+  padding: 0rem 2rem;
+  padding-top: 10rem;
+  justify-content: center
+}
+
+.head-logo {
+  font-size: 6rem;
+  margin: 3rem 0rem 0rem 0rem;
+  /* -webkit-text-stroke: 2.4px white;
+  color: rgba(0, 0, 0, 0.0); */
+  color: white
+}
+
+.sub-logo {
+  color: lightgrey;
+  font-size: 1.5rem;
+  margin: 0rem 0rem 0rem 0.5rem;
+}
+
 .section {
-  margin: 0rem 2rem 0rem 2rem;
+    margin: 0rem 2rem 0rem 2rem;
 }
 
 .proj-container {
@@ -132,12 +147,16 @@ p {
   flex-wrap: wrap;
 }
 
-.proj-img {
+#guide-img {
+  width: 40%;
+}
+
+.proj-display {
   filter: grayscale(100%);
   width: 120%;
 }
 
-.proj-img:hover {
+.proj-display:hover {
   filter: grayscale(0%);
   opacity: 0.85;
 }
@@ -148,15 +167,16 @@ p {
   left: 15%;
   font-size: 4rem;
   font-weight: 800;
-  -webkit-text-stroke: 2px white;
-  color: rgba(255, 255, 255, 0.0);
+  -webkit-text-stroke: 2.4px white;
+  color: rgba(0, 0, 0, 0.0);
+  /* color: #41698D; */
 }
 
 .project-type {
   position: absolute;
-  padding-top: 350px;
+  padding-top: 360px;
   left: 15%;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: grey;
 }
 
@@ -171,6 +191,11 @@ p {
   margin: 0rem 12rem 0rem 14rem;
   max-width: 50%;
   font-size: 1.25rem;
+}
+
+.about-other {
+  color: lightgrey;
+  font-size: 1rem;
 }
 
 /* __________________PROJECT PAGES: __________________ */
@@ -201,15 +226,29 @@ p {
   font-size: 1.15rem;
   font-weight: 500;
   font-style: italic;
-  margin: 0rem auto 0.5rem auto;
+  margin: 0rem auto 0.25rem auto;
   padding: 0rem 2rem;
 }
 
 .proj-detail {
-  color: lightgrey;
-  margin: 1rem;
+  color: grey;
+  margin: 0.5rem;
 }
 
+.proj-finalimg {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  margin: 0rem 8rem;
+}
+
+.proj-imgbox {
+  margin: 0.5rem 1rem;
+}
+
+.proj-img {
+  max-width: 100%;
+}
 
 /* __________________STYLING FOR FOOTER:__________________ */
 
@@ -230,4 +269,5 @@ footer {
 .footer-section {
   max-width: 80%;
   padding: 1rem;
+  margin-bottom: 1rem;
 }
