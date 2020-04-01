@@ -2,7 +2,7 @@ body {
   font-family: 'Proxima Nova', 'Avenir Next', Arial, Helvetica, sans-serif;
   background-color: #0A0A0A;
   color: white;
-  margin: 2rem;
+  margin: 1rem;
 }
 
 .element {
@@ -27,15 +27,16 @@ body {
 }
 
 .landing-head {
-  font-size: 3rem;
-  /* max-width: 50%; */
-  padding: 2rem 2rem;
+  max-width: 100%;
+  margin: 0rem 9rem 9rem 9rem;
+  padding: 0rem 2rem;
   padding-top: 10rem;
   justify-content: center
 }
 
-.container {
-
+.head-logo {
+  font-size: 6rem;
+  margin: 3rem 0rem 0rem 0rem;
 }
 
 header {
@@ -61,7 +62,6 @@ nav a {
   font-weight: Bold;
   text-decoration: none;
   margin: 1rem;
-  transition: 0.4s;
 }
 
 nav a:hover, nav a:focus {
@@ -78,7 +78,7 @@ nav a:hover, nav a:focus {
 
 /* __________________BUTTON ELEMENTS:__________________ */
 
-.button {
+/* .button {
   background-color: black;
   border: none;
   color: white;
@@ -92,7 +92,7 @@ nav a:hover, nav a:focus {
 
 .button:hover, .button:focus {
   background-color: rgb(200,0,0);
-}
+} */
 
 /* __________________STYLING FOR LINKS__________________ */
 
@@ -111,6 +111,10 @@ a {
 
 /* __________________TEXT ELEMENTS:__________________ */
 
+h1 {
+  font-size: 1rem;
+}
+
 p {
   margin-top: 0;
 }
@@ -118,7 +122,7 @@ p {
 /* __________________LADNING PAGE: PROJECT DISPLAY__________________ */
 
 .section {
-    margin: 0rem 2rem 0rem 2rem;
+  margin: 0rem 2rem 0rem 2rem;
 }
 
 .proj-container {
@@ -126,32 +130,86 @@ p {
   margin: 2rem auto;
   display: flex;
   flex-wrap: wrap;
-  align-items: right;
-  justify-content: right;
 }
 
-#proj-img {
-  /* width: 50%; */
+.proj-img {
+  filter: grayscale(100%);
+  width: 120%;
+}
+
+.proj-img:hover {
+  filter: grayscale(0%);
+  opacity: 0.85;
 }
 
 .project-name {
   position: absolute;
-  /* bottom: -350px; */
+  padding-top: 280px;
   left: 15%;
   font-size: 4rem;
   font-weight: 800;
   -webkit-text-stroke: 2px white;
-  /* color: rgba(255, 255, 255, 0.0); */
-  color: #0A0A0A;
+  color: rgba(255, 255, 255, 0.0);
 }
 
 .project-type {
   position: absolute;
-  /* bottom: -370px; */
+  padding-top: 350px;
   left: 15%;
   font-size: 1rem;
   color: grey;
 }
+
+/* __________________ABOUT PAGE__________________ */
+
+.container {
+  margin-top: 4rem;
+}
+
+.about-text {
+  padding: 1rem;
+  margin: 0rem 12rem 0rem 14rem;
+  max-width: 50%;
+  font-size: 1.25rem;
+}
+
+/* __________________PROJECT PAGES: __________________ */
+
+.proj-box {
+  text-align: center;
+  align-items: center;
+}
+
+.proj-heading {
+  margin-top: 12rem;
+  margin-bottom: 20rem;
+  padding: 4rem 0 2rem 0;
+}
+
+.proj-title {
+  color: #41698D;
+  font-size: 6.5rem;
+  font-weight: 600;
+  font-kerning: auto;
+  padding: 0;
+  margin: 0.5rem;
+  line-height: 6rem;
+}
+
+.proj-subtitle {
+  color: white;
+  font-size: 1.15rem;
+  font-weight: 500;
+  font-style: italic;
+  margin: 0rem auto 0.5rem auto;
+  padding: 0rem 2rem;
+}
+
+.proj-detail {
+  color: lightgrey;
+  margin: 1rem;
+}
+
 
 /* __________________STYLING FOR FOOTER:__________________ */
 
@@ -159,10 +217,14 @@ footer {
   bottom: 0;
   color: white;
   text-align: center;
-  padding: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 30px 0rem 0rem 0rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 4rem 0rem 0rem 0rem;
+  border-top: 0.5px solid grey;
 }
 
 .footer-section {

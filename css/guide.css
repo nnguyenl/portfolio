@@ -94,6 +94,16 @@ a img:hover {
   color: darkblue;
 }
 
+.proj-img {
+  filter: grayscale(100%);
+  width: 40%;
+}
+
+.proj-img:hover {
+  filter: grayscale(0%);
+  opacity: 0.85;
+}
+
 /* __________________TEXT ELEMENTS:__________________ */
 
 h2 {
@@ -108,16 +118,18 @@ p {
 /* __________________STYLING FOR FOOTER:__________________ */
 
 footer {
-  margin-top: 4rem;
+  bottom: 0;
   color: white;
   text-align: center;
+  padding: 30px 0rem 0rem 0rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-top: 0.05rem solid white;
+  margin: 4rem 0rem 0rem 0rem;
+  border-top: 0.5px solid grey;
 }
 
 .footer-section {
-  max-width: 100%;
+  max-width: 80%;
   padding: 1rem;
 }
