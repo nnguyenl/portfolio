@@ -201,7 +201,14 @@ p {
   opacity: 0.75;
 }
 
-/* __________________STYLING FOR FOOTER:__________________ */
+/* __________________STYLING FOR FOOTER & CITAIONS:__________________ */
+
+.citation-section {
+  margin: 2rem auto;
+  padding: 0rem 2rem 10rem 2rem;
+  max-width: 800px;
+  overflow: auto;
+}
 
 footer {
   bottom: 0;
