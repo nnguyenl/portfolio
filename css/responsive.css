@@ -40,6 +40,12 @@
   }
 }
 
+@media (max-width: 1100px) {
+  .proj-content {
+    margin: 4rem 14rem;
+  }
+}
+
 @media (max-width: 970px) {
   .landing-head {
     margin: 0rem;
@@ -88,6 +94,10 @@
 
   .proj-finalimg {
     margin: 0rem 2rem;
+  }
+
+  .proj-content {
+    margin: 4rem 10rem;
   }
 }
 
@@ -193,6 +203,21 @@
     flex-wrap: wrap;
     margin: 0rem 5rem;
   }
+
+  .proj-content {
+    margin: 0rem 8rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .proj-imgprocess {
+    max-width: 100%;
+    padding: 2rem 0rem;
+    flex-wrap: wrap;
+    margin: 1rem 0rem;
+  }
 }
 
 /* __________________iPHONE 8 (LANDSCAPE) SCREEN SIZE:__________________ */
@@ -265,6 +290,20 @@
     flex-wrap: wrap;
     margin: 0rem 2rem;
   }
+
+  .proj-content {
+    margin: 0rem 4rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .proj-imgprocess {
+    max-width: 100%;
+    padding: 0rem 0rem;
+    flex-wrap: wrap;
+  }
 }
 
 /* __________________iPHONE X SCREEN SIZE:__________________ */
@@ -332,5 +371,20 @@
   .proj-finalimg {
     flex-wrap: wrap;
     margin: 0rem 1rem;
+  }
+
+  .proj-content {
+    margin: 0rem 2rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  .proj-imgprocess {
+    max-width: 100%;
+    padding: 2rem 0rem;
+    flex-wrap: wrap;
+    margin: 0rem 0rem;
   }
 }

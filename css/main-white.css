@@ -87,109 +87,34 @@ a:hover {
 /* __________________TEXT ELEMENTS:__________________ */
 
 h1 {
-  font-size: 1rem;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 4rem 0rem 10rem 0rem;
 }
 
 h3 {
-  padding: 0rem;
-  margin-bottom: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
+  margin: 1rem 0rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0rem;
 }
 
 p {
   margin-top: 0;
 }
 
-/* __________________LADNING PAGE: PROJECT DISPLAY__________________ */
-
-.landing-head {
-  max-width: 100%;
-  margin: 0rem 9rem 9rem 9rem;
-  padding: 0rem 2rem;
-  padding-top: 10rem;
-  justify-content: center
-}
-
-.head-logo {
-  font-size: 6rem;
-  margin: 3rem 0rem 0rem 0rem;
-  -webkit-text-stroke: 2.4px black;
-  color: rgba(0, 0, 0, 0.0);
-}
-
-/* .head-logo:hover {
-  color: black;
-} */
-
-.sub-logo {
-  color: grey;
-  font-size: 1.5rem;
-  margin: 0rem 0rem 0rem 0.5rem;
-}
-
-.section {
-    margin: 0rem 2rem 0rem 2rem;
-}
-
-.proj-container {
-  max-width: 600px;
-  margin: 2rem auto;
-  display: flex;
-  flex-wrap: wrap;
-}
+/* __________________PROJECT PAGES: __________________ */
 
 #guide-img {
   width: 40%;
 }
-
-.proj-display {
-  filter: grayscale(100%);
-  width: 120%;
-}
-
-.proj-display:hover {
-  filter: grayscale(0%);
-  opacity: 0.85;
-}
-
-.project-name {
-  position: absolute;
-  padding-top: 280px;
-  left: 15%;
-  font-size: 4rem;
-  font-weight: 800;
-  -webkit-text-stroke: 2.4px #41698D;
-  color: rgba(0, 0, 0, 0.0);
-  /* color: #41698D; */
-}
-
-.project-type {
-  position: absolute;
-  padding-top: 360px;
-  left: 15%;
-  font-size: 1.2rem;
-  color: grey;
-}
-
-/* __________________ABOUT PAGE__________________ */
-
-.container {
-  margin-top: 4rem;
-}
-
-.about-text {
-  padding: 1rem;
-  margin: 0rem 12rem 0rem 14rem;
-  max-width: 50%;
-  font-size: 1.25rem;
-}
-
-.about-other {
-  color: grey;
-  font-size: 1rem;
-}
-
-/* __________________PROJECT PAGES: __________________ */
 
 .proj-box {
   text-align: center;
@@ -230,7 +155,7 @@ p {
   display: flex;
   justify-content: center;
   text-align: left;
-  margin: 0rem 8rem;
+  margin: 4rem 8rem;
 }
 
 .proj-imgbox {
@@ -239,6 +164,41 @@ p {
 
 .proj-img {
   max-width: 100%;
+}
+
+.proj-content {
+  /* display: flex; */
+  justify-content: center;
+  text-align: left;
+  margin: 8rem 20rem;
+}
+
+.text {
+  margin: 4rem 0rem;
+}
+
+.proj-imgprocess {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  margin: 2rem 0rem;
+}
+
+/* __________________NEXT PROJECT BUTTON__________________ */
+
+.button-product {
+  background-color: #41698D;
+  color: white;
+  font-size: 0.8rem;
+  padding: 1rem 2em;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 1rem;
+}
+
+.button-product:hover {
+  opacity: 0.75;
 }
 
 /* __________________STYLING FOR FOOTER:__________________ */

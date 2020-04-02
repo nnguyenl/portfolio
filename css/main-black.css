@@ -40,7 +40,7 @@ body {
   color: #0A0A0A;
 }
 
-#logo-about {
+#logo-about, #logo-style {
   margin-top: 1rem;
   font-size: 20px;
   font-weight: 700;
@@ -182,7 +182,7 @@ p {
 
 /* __________________ABOUT PAGE__________________ */
 
-.container {
+.about-container {
   margin-top: 4rem;
 }
 
@@ -248,6 +248,23 @@ p {
 
 .proj-img {
   max-width: 100%;
+}
+
+/* __________________NEXT PROJECT BUTTON__________________ */
+
+.button-product {
+  background-color: #41698D;
+  color: white;
+  font-size: 0.8rem;
+  padding: 1rem 2em;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 1rem;
+}
+
+.button-product:hover {
+  opacity: 0.75;
 }
 
 /* __________________STYLING FOR FOOTER:__________________ */
