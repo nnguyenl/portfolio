@@ -2,18 +2,6 @@
   box-sizing: border-box;
 }
 
-/* @media (min-width: 57rem) {
-
-}
-
-
-@media (max-width: 57rem) {
-  .logo{
-    text-align: center;
-  }
-
-} */
-
 @media (max-width: 1400px) {
   .landing-head {
     margin: 0rem;
