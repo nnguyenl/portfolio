@@ -79,23 +79,24 @@ a:hover {
 /* __________________TEXT ELEMENTS:__________________ */
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 h2 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   text-align: center;
   padding: 4rem 0rem 10rem 0rem;
 }
 
 h3 {
   color: #41698D;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin: 0.25rem 0rem 0.5rem 0rem;
 }
 
 p {
   margin-top: 0;
+  line-height: 1.8rem;
 }
 
 /* __________________PROJECT PAGES: __________________ */
@@ -147,7 +148,7 @@ p {
 }
 
 .proj-imgbox {
-  margin: 0.5rem 1rem;
+  margin: 0.5rem 0rem;
 }
 
 .proj-img {
@@ -179,13 +180,13 @@ ul {
 /* __________________NEXT PROJECT BUTTON__________________ */
 
 .button-product {
-  background-color: #41698D;
-  color: white;
+  background: none;
+  color: black;
   font-size: 0.8rem;
   padding: 1rem 2em;
   cursor: pointer;
   border: none;
-  border-radius: 2px;
+  border-bottom: solid 3px #41698D;
   margin-bottom: 1rem;
 }
 

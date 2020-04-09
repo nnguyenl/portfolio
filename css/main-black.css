@@ -249,13 +249,13 @@ p {
 /* __________________NEXT PROJECT BUTTON__________________ */
 
 .button-product {
-  background-color: #41698D;
+  background: none;
   color: white;
   font-size: 0.8rem;
   padding: 1rem 2em;
   cursor: pointer;
   border: none;
-  border-radius: 2px;
+  border-bottom: solid 3px #41698D;
   margin-bottom: 1rem;
 }
 
